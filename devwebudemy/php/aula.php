@@ -280,6 +280,95 @@ else
 { echo 'false';}
 ?>
 
+<?php
+//a324 if/else praticando um pouco mais
 
-    </body>
+$usuario_possui_cartao_loja = true;
+$valor_compra = 99;
+
+$valor_frete = 50;
+$recebeu_desconto_frete = false;
+
+if($usuario_possui_cartao_loja == true && $valor_compra >= 100)
+{ $valor_frete = 0;
+$recebeu_desconto_frete = true;}
+
+?>
+<h1> detalhes do pedido</h1>
+
+<p> possui cartao da loja ?
+
+<?php 
+if($usuario_possui_cartao_loja == true)
+{echo 'sim';}
+else 
+{ echo 'nao';}
+
+?>
+</p>
+
+<p> valor da compra: <?= $valor_compra ?> </p>
+    
+<p>recebeu desconto no frete?
+
+<?php 
+if($recebeu_desconto_frete == true)
+{echo 'sim';}
+else 
+{ echo 'nao';}
+
+?>
+</p>
+<p> valor do frete: <?= $valor_frete ?></p>
+
+<?php
+//325 condições encadeadas
+
+
+if($usuario_possui_cartao_loja == true && $valor_compra >= 100)
+{ $valor_frete = 0;
+$recebeu_desconto_frete = true;}
+
+else if ($usuario_possui_cartao_loja && $valor_compra >= 400)
+{
+    $valor_frete = 10;
+}
+
+else if ($usuario_possui_cartao_loja && $valor_compra >= 300)
+{
+    $valor_frete = 25;
+}
+
+else { $recebeu_desconto_frete = false;a}
+
+?>
+<h1> detalhes do pedido</h1>
+
+<p> possui cartao da loja ?
+
+<?php 
+if($usuario_possui_cartao_loja == true)
+{echo 'sim';}
+else 
+{ echo 'nao';}
+
+?>
+</p>
+
+<p> valor da compra: <?= $valor_compra ?> </p>
+    
+<p>recebeu desconto no frete?
+
+<?php 
+if($recebeu_desconto_frete == true)
+{echo 'sim';}
+else 
+{ echo 'nao';}
+
+?>
+</p>
+<p> valor do frete: <?= $valor_frete ?></p>
+
+?>
+</body>
 </html>
