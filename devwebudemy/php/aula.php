@@ -339,7 +339,7 @@ else if ($usuario_possui_cartao_loja && $valor_compra >= 300)
     $valor_frete = 25;
 }
 
-else { $recebeu_desconto_frete = false;a}
+else { $recebeu_desconto_frete = false;}
 
 ?>
 <h1> detalhes do pedido</h1>
@@ -369,6 +369,52 @@ else
 </p>
 <p> valor do frete: <?= $valor_frete ?></p>
 
+<?php 
+//a326 operador ternario
+
+
+$usuario_possui_cartao_loja326 = $usuario_possui_cartao_loja? 'sim' : 'nao';
+
+echo $usuario_possui_cartao_loja326;
+
+$valor_compra326 = 40;
+$valor_frete326 = 50;
+$recebeu_desconto_frete326 = true;
+
+$valor_frete_aux326 = $usuario_possui_cartao_loja326 && $valor_compra326 >= 400 ? 0 : ($usuario_possui_cartao_loja326 && $valor_compra326 >= 300 ? 10 : ($usuario_possui_cartao_loja326 && $valor_compra326 >=100 ? 25 : $valor_frete326));
+$recebeu_desconto_frete326 = $valor_frete326 != $valor_frete_aux326 ? true : false;
+
+$valor_frete326 = $valor_frete326;
+
+
 ?>
+<h1> detalhes do pedido 326 </h1>
+
+<p> possui cartao da loja ?
+
+<?php 
+if($usuario_possui_cartao_loja326 == true)
+{echo 'sim';}
+else 
+{ echo 'nao';}
+
+?>
+</p>
+
+<p> valor da compra: <?= $valor_compra326 ?> </p>
+    
+<p>recebeu desconto no frete?
+
+<?php 
+if($recebeu_desconto_frete326 == true)
+{echo 'sim';}
+else 
+{ echo 'nao';}
+
+?>
+</p>
+<p> valor do frete: <?= $valor_frete326 ?></p>
+
+
 </body>
 </html>
