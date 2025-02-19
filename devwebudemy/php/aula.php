@@ -414,6 +414,27 @@ else
 ?>
 </p>
 <p> valor do frete: <?= $valor_frete326 ?></p>
+<!-- aula 328 switch
+ switch (opção)
+{
+case 1:
+    trecho de codigo quer sera executado
+    
+    break;
+
+    case 2 :
+        trecho de codigo que sera executado 
+
+        break;
+
+        default:
+        trecho de codigo que sera executado
+
+        break;
+}
+
+-->
+
 
 
 </body>
