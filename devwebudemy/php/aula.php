@@ -435,7 +435,34 @@ case 1:
 
 -->
 
+<?php
+// a329 switch na pratica
 
+$variavel236 = 1;
+
+switch ($variavel236 )
+{
+    case 1: 
+    //codigo
+    echo 'entrou no case 1';
+    break;
+
+    
+    case'abc': 
+    //codigo
+    echo 'entrou no case2';
+   break;
+    
+    case false: 
+    //codigo
+    echo 'entrou no case 3';
+    break;
+    
+    default: 
+     echo 'entrou no default';
+    break;
+}
+?>
 
 </body>
 </html>
