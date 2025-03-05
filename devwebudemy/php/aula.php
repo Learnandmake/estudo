@@ -462,6 +462,33 @@ switch ($variavel236 )
      echo 'entrou no default';
     break;
 }
+echo '<br/>';
+?>
+<!--a330 casting de tipos int string bool float-->
+<php
+    $valor330 = 10 ;
+    $valor2330 = (float) $valor;
+    
+    $valor33330 = 15.35 ;
+    $valor4330 = (string) $valor33330;
+    
+    $valor5330 = 22.12 ;
+    $valor6330 = (integer) $valor53330;
+
+    $valor7330 = 'abc' ;
+    $valor8330 = (boolean) $valor83330;
+
+
+    echo $valor330 .' ' . gettype($valor330);
+    echo $valor2330.' ' . gettype($valor2330);
+
+    echo $valor3330 .' ' . gettype($valor3330);
+    echo $valor4330 .' ' . gettype($valor4330);
+    
+    echo $valor5330 .' ' . gettype($valor5330);
+    echo $valor6330 .' ' . gettype($valor6330);
+
+    
 ?>
 
 </body>
