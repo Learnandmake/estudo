@@ -490,6 +490,24 @@ echo '<br/>';
 
     
 ?>
+<?php 
+/*
+a 331 operadores aritmeticos 
 
+o que sao operadores aritmeticos?
+
+operadores:
+
+adição(+) - soma de valores
+
+subtralçao(-) - diferença entre valores
+
+multiplicação (*) - produtos dos valores 
+
+divisão (/) - quociente dos valores
+
+modulo (%) - resto existente em ua operação de divisão
+*/ 
+?>
 </body>
 </html>
