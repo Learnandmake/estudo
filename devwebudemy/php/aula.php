@@ -490,7 +490,7 @@ echo '<br/>';
 
     
 ?>
-<?php 
+
 <!--
 a 331 operadores aritmeticos 
 
