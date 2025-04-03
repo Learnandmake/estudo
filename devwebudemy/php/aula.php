@@ -491,7 +491,7 @@ echo '<br/>';
     
 ?>
 <?php 
-/*
+<!--
 a 331 operadores aritmeticos 
 
 o que sao operadores aritmeticos?
@@ -507,7 +507,26 @@ multiplicação (*) - produtos dos valores
 divisão (/) - quociente dos valores
 
 modulo (%) - resto existente em ua operação de divisão
-*/ 
+-->
+
+
+<?php 
+/*praticando com operadores aritmeticos*/
+echo'<br />';echo'<br />';
+$num1 = 13;
+$num2 = 4;
+
+echo "A soma entre $num1 e $num2 é" . ($num1 + $num2);
+echo'<br />';
+echo "A subtração entre $num1 e $num2 é" . ($num1 - $num2);
+echo'<br />';
+echo "A multiplicação entre $num1 e $num2 é" . ($num1 * $num2);
+echo'<br />';
+echo "O quociente entre $num1 e $num2 é" . ($num1 / $num2);
+echo'<br />';
+echo "A modulo entre $nusm1 e $num2 é" . ($num1 % $num2);
+echo'<br />';
+?>
 ?>
 </body>
 </html>
