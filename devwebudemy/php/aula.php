@@ -490,7 +490,6 @@ echo '<br/>';
 
     
 ?>
-
 <!--
 a 331 operadores aritmeticos 
 
@@ -527,6 +526,18 @@ echo'<br />';
 echo "A modulo entre $nusm1 e $num2 é" . ($num1 % $num2);
 echo'<br />';
 ?>
+
+<?php
+//a333 operações aritméicas na atribuição de valores
+// = 
+//+,-,*,/,%
+$x= 10;
+$y = 8; 
+$x %= $y;
+
+echo $x;
+
 ?>
+
 </body>
 </html>
