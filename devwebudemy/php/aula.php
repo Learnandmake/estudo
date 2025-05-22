@@ -539,5 +539,20 @@ echo $x;
 
 ?>
 
+
+<?php
+
+/*
+a334 operadores de incremento/decremento
+
+operadores
+
+pré-incremento(++$a) - adiciona uma unidade antes de retornar $a
+pós-incremetno ($a++) - retirba $a e depois adiciona uma unidade
+pré-decremento (--$a) - diminui uma unidade antes de retornar $a
+pós-decremento ($a--) - retorna $a e depois diminui uma unidade
+*/
+
+?>
 </body>
 </html>
