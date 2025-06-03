@@ -523,7 +523,7 @@ echo "A multiplicação entre $num1 e $num2 é" . ($num1 * $num2);
 echo'<br />';
 echo "O quociente entre $num1 e $num2 é" . ($num1 / $num2);
 echo'<br />';
-echo "A modulo entre $nusm1 e $num2 é" . ($num1 % $num2);
+echo "A modulo entre $num1 e $num2 é" . ($num1 % $num2);
 echo'<br />';
 ?>
 
@@ -554,5 +554,38 @@ pós-decremento ($a--) - retorna $a e depois diminui uma unidade
 */
 
 ?>
+
+<?php
+
+/* pós-incremento*/
+$a3341 = 7 ;
+$a3342 = 7;
+echo "o valor contido em a é <br />";
+echo "o valor contido em a após o incremento é " . $a3341++ . '<br />';
+echo " o valor atualizado é $a3341";
+
+/*pré-incremento*/
+
+
+echo "o valor contido em a é $a3342 <br />";
+echo " o valor contido em a pré o incremento é " . ++$a3342 . "<br />";
+echo "o valor atualizado em $a3342";
+
+/* pós-decremento*/
+$a3343 = 7 ;
+$a3344 = 7;
+echo "o valor contido em a é <br />";
+echo "o valor contido em a após o decremento é " . $a3343-- . '<br />';
+echo " o valor atualizado é $a3343";
+
+/*pré-incremento*/
+
+
+echo "o valor contido em a é $a3344 <br />";
+echo " o valor contido em a pré o decremento é " . --$a3344 . "<br />";
+echo "o valor atualizado em $a3344";
+?>
+
+
 </body>
 </html>
