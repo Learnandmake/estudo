@@ -586,6 +586,26 @@ echo " o valor contido em a pré o decremento é " . --$a3344 . "<br />";
 echo "o valor atualizado em $a3344";
 ?>
 
+<?php
+/*336 introdução as funções
+
+encapsular um bloco de códigos com um objetivo definido
+
+function exibirboas vindas ()  {
+
+echo "bem - vindo ao curso de php
+}
+
+function calcular area terreno ($largura,$ comprimento)
+{
+$area = $largura * $comprimento;
+
+return $area;
+}
+*/
+
+?>
+
 
 </body>
 </html>
