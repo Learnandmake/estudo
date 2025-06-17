@@ -606,6 +606,23 @@ return $area;
 
 ?>
 
+<?php
 
+function exibirboasvindas ()
+{
+    echo "bem vindo ao curso de php";
+}
+
+ $x =  exibirboasvindas();
+function calcularareaterreno ($largura, $comprimento)
+{
+    $area = $largura * $comprimento;
+    return $area;
+}
+
+ $resultado = echo calcularareaterreno (30,50);
+
+ echo $resultado;
+?>
 </body>
 </html>
