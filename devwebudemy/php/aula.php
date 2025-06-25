@@ -620,9 +620,51 @@ function calcularareaterreno ($largura, $comprimento)
     return $area;
 }
 
- $resultado = echo calcularareaterreno (30,50);
+ $resultado =  calcularareaterreno (30,50);
 
  echo $resultado;
+
+
+ 
+?>
+
+<?php
+
+ /* a338- atividades para fixação de conteudo   */
+$salario = 0 ;
+
+ function calcularimpostoderenda ($salario)
+ {
+
+       $imposto =0;
+    if($salario <= 1903.98 )
+    {
+        $imposto = 0;
+    }
+
+    else if ($salario >= 1903.99 && $salario<= 2826.65)
+    {
+      $imposto = ($salario * 7.5 )/100;
+    }
+    
+    else if($salario >=  2826.65 && $salario <= 3751.05 )
+    {
+     $imposto = ($salario * 15 )/100;
+    }
+
+    else if ($salario >=  3751.05 && $salario <= 4664.68)
+    {
+     $imposto = ($salario * 22.5 )/100;   
+    }
+     else if ($salario >= 4664.68)
+    {
+        $imposto = ($salario * 27.5 )/100;
+    }
+    return $imposto;
+ }
+echo  calcularimpostoderenda(3000);
+
+
 ?>
 </body>
 </html>
